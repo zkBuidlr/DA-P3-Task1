@@ -1,11 +1,10 @@
-# Phase 3 - Introduction to Solana Web3 Development
+# Phase 3 - Intro to Solana Web3 Development
 
 In this phase the focus will be on understanding basic concepts in solana development and getting familiar with some of the most frequently used packages.
 
-```
-We will be using devnet throughout this guide.
-If you are not able to access any of the links, try using an incognito window.
-```
+## Note-
+* We will be using __DEVNET__ throughout this guide.
+* If you are not able to access any of the links, try using an incognito window.
 
 ## 1-
 Read upon and understand about the [account structure](https://medium.com/@lianxiongdi/a-deep-dive-into-solana-account-model-1-introduction-7b0408656593) of solana blockchain. Also explore the [solana cookbook](https://solanacookbook.com/#contributing), it provides a lot of info which you will find handy.
