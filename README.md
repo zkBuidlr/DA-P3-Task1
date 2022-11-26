@@ -14,17 +14,28 @@ Using CLI perform the following-
 * Create a [file wallet](https://medium.com/@lianxiongdi/solana-development-1-basic-operation-of-solana-cli-dcf156137e6).
 * Airdrop yourself Sol.
 https://solscan.io/tx/4KqxzDddBkZcPJNcBKZiRvo2AFGngw1cttZBpDamRknvGYpTgXfQPRtGKmHP29mPKxBsCNWnieebj8MGUnJyHNtZ?cluster=devnet
+
 * Create a [spl-token](https://medium.com/@lianxiongdi/a-deep-dive-into-solana-account-model-2-spl-token-d029d97aa6e0).
 https://solscan.io/tx/3kt51LFZreQo1W98e6qQWehZtUw1XQqTHjjdfUvtQF5ZscU5MdfKXVb9nPocUGrvXk1N4v9QMSHBfMeR1wDsg6K3?cluster=devnet
+
 * Create [associated-token-account](https://medium.com/@lianxiongdi/a-deep-dive-into-solana-account-model-3-associated-token-account-60a7655bec03) for the token you created.
 https://solscan.io/tx/5vNr4HWyywRd3ihzC9wAkxSxk4oHxCc8tCLhv5ZkquBL1X1nrRocUuvK8KKpgU3pjgZYPeKNEfC6RHaLWUHokFdP?cluster=devnet
+
 * Transfer some sol and token to a second wallet.
 https://solscan.io/tx/2LfPaiVULQHQAobQzHCxPLLbqKjo5aSzbUPpLfwLja74KiPS8fxiXExdWjGn6JqQs3Xux8JjK7zm71R6FR8eHtH6?cluster=devnet
 
 ## Try answering the following questions
 * Difference between public and private key.
+
+A public key allows you to receive cryptocurrency transactions. It's a cryptographic code that's paired to a private key. 
+
 * What is a transaction, instruction in solana and how are they related?
+
+Program execution begins with a transaction being submitted to the cluster. The Solana runtime will execute a program to process each of the instructions contained in the transaction, in order, and atomically.
+
 * How does ATA’s differ from token accounts?
+
+Before the user can receive tokens, their associated token account must be created on-chain, requiring a small amount of SOL to mark the account as rent-exempt.
 
 
 ## 3-
