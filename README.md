@@ -12,7 +12,7 @@ Read upon and understand about the [account structure](https://medium.com/@lianx
 ## 2-
 Using CLI perform the following-
 * Create a [file wallet](https://medium.com/@lianxiongdi/solana-development-1-basic-operation-of-solana-cli-dcf156137e6).
-* Airdrop yourself Sol.
+* Airdrop yourself Sol. - Signature: 4KqxzDddBkZcPJNcBKZiRvo2AFGngw1cttZBpDamRknvGYpTgXfQPRtGKmHP29mPKxBsCNWnieebj8MGUnJyHNtZ
 * Create a [spl-token](https://medium.com/@lianxiongdi/a-deep-dive-into-solana-account-model-2-spl-token-d029d97aa6e0).
 * Create [associated-token-account](https://medium.com/@lianxiongdi/a-deep-dive-into-solana-account-model-3-associated-token-account-60a7655bec03) for the token you created.
 * Transfer some sol and token to a second wallet.
