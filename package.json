@@ -12,5 +12,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@solana/spl-token": "^0.3.6",
+    "@solana/web3.js": "^1.66.2",
+    "dotenv": "^16.0.3"
+  }
 }
